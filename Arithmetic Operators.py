@@ -12,7 +12,7 @@ Power:(**)
 number_one = 50
 number_two = 20
 
-print(number_one + number_two)
+#print(number_one + number_two)
 print(number_one - number_two)
 
 print(number_one * number_two)

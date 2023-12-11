@@ -21,8 +21,8 @@ number_two = 30
 number += number_two
 print(number)
 
-number -= number_two
-print(number)
+#number -= number_two
+#print(number)
 
 number *= number_two
 print(number)

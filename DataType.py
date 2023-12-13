@@ -15,3 +15,33 @@
 7.Set data types: set, frozenset
 
 """
+#Tuple
+name = ("Md","Nasim","Ahmed")
+print(type(name))
+#Str
+surname = ("Bulbul , Islam")
+print(type(surname))
+
+#List
+bio = ["Md Nasim Ahmed", "kali", "linux"]
+print(type(bio))
+
+#range
+number = range(6)
+print(type(number))
+
+# dict
+nam = {"system": "windows" , "operating": 10}
+print(type(nam))
+
+# set
+fullName = {"windows", "Ten"}
+print(type(fullName))
+
+# frozenset
+operating = frozenset({"windows","Ten"})
+print(type(operating))
+
+# nonetype
+null = None
+print(type(null))

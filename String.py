@@ -35,3 +35,16 @@ print(test1[2:])
 ## Negative Indexing
 test2 = "Hello, World"
 print(test2[-4:-2])
+
+## String Concatenation
+a = "Python"
+b = "Practice"
+c = a + " " + b
+print(c)
+
+##String Format
+a = 10
+b =  25
+c = 10.5
+d = "I have {} pieces of item {} for {} Taka."
+print(d.format(a, b, c))

@@ -37,3 +37,21 @@ print(bool(()))
 print(bool([]))
 print(bool({}))
 
+## Function one or more Value
+class myclass():
+    def __len__(self):
+        return 0
+    
+myobj = myclass()
+print(bool(myobj))
+
+## Return Boolean
+def myFunction() :
+    return False
+
+if myFunction():
+    print("YES!")
+else:
+    print("No!")
+
+##

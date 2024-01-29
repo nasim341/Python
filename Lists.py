@@ -22,3 +22,19 @@ print(thislist[-3:-2])
 thislist = ["apple", "banana", "cherry"]
 if "apple" in thislist:
     print("Yes,'apple' is in the fruits list")
+
+############ Change List Items #############
+
+thislist = ["apple", "banana", "cherry"]
+thislist[2] = "mango"
+print(thislist)
+
+## Change a range item with slice
+thislist = ["apple", "banana", "cherry", "orange", "watermelon"]
+thislist[2:3] = ["kiwi", "blackcurrant"]
+print(thislist)
+
+## Insert Item
+thislist = ["apple", "banana", "cherry"]
+thislist.insert(2, "mango")
+print(thislist)

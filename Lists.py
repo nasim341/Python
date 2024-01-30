@@ -38,3 +38,16 @@ print(thislist)
 thislist = ["apple", "banana", "cherry"]
 thislist.insert(2, "mango")
 print(thislist)
+
+################Add List Items############
+## Append Items
+
+thislist = ["apple", "banana", "cherry"]
+thislist.append("mango")
+print(thislist)
+
+## Extend List
+thislist = ["apple", "banana", "cherry"]
+otherlist = ["mango", "pineapple", "papaya"]
+thislist.extend(otherlist)
+print(thislist)

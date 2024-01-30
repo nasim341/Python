@@ -51,3 +51,31 @@ thislist = ["apple", "banana", "cherry"]
 otherlist = ["mango", "pineapple", "papaya"]
 thislist.extend(otherlist)
 print(thislist)
+
+
+#################### Remove List#############
+
+## Remove List
+thislist = ["apple", "banana", "cherry"]
+thislist.remove("apple")
+print(thislist)
+
+## Remove Specified index
+thislist = ["apple", "mango", "Cherry"]
+thislist.pop(0)
+print(thislist)
+
+## Remove the last item
+thislist = ["apple","mango", "cherry"]
+thislist.pop()
+print(thislist)
+
+## Delete first item
+thislist = ["apple", "banana", "cherry"]
+del thislist[0]
+print(thislist)
+
+## Clear the List
+thislist = ["apple", "banana", "cherry"]
+thislist.clear()
+print(thislist)

@@ -103,3 +103,32 @@ while i < len(thislist):
  ##Looping Using List Comprehension{short syntax}
     thislist = ["apple", "banana", "cherry"]
     [print(x) for x in thislist]
+
+############## Sort List ###########
+    
+thislist = ["orange", "mango","kiwi"]
+thislist.sort() 
+print(thislist)  
+
+## Numerically Sort
+
+thislist = [40, 50, 30, 70, 80, 60]
+thislist.sort()
+print(thislist)
+
+## Descending Sort
+thislist = ["orange", "banana", "mango","kiwi"]
+thislist.sort(reverse=True)
+print(thislist)
+
+## Customize Sort
+def myfun (n):
+    return abs(n - 50)
+thislist = [100, 50, 65, 82, 23]
+thislist.sort(key = myfun)
+print(thislist)
+
+## insensitive Sort
+thislist = ["banana", "oranghe", "kiwi", "cherrry"]
+thislist.sort(key = str.lower)
+print(thislist)

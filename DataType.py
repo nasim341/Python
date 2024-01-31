@@ -45,3 +45,17 @@ print(type(operating))
 # nonetype
 null = None
 print(type(null))
+
+#######Binary Data Tpe##############
+
+##Byte
+
+thislist = [4,5,3,5,5,66,77,55]
+value = bytes(thislist)
+print(type(value))
+
+##ByteArray
+thislist = [4,5,3,5,5,66,77,55]
+value1 =bytearray(thislist)
+value1[0] = 3
+print(value1[0])

@@ -12,3 +12,8 @@ a = list(thisTuple)
 a.append("practice")
 thisTuple = tuple(a)
 print(thisTuple)
+
+########### Unpack Tuples ############
+fruits = ("apple", "banana", "cherry", "Mango")
+(a, b, *c) = fruits
+print(c)

@@ -17,3 +17,19 @@ print(thisTuple)
 fruits = ("apple", "banana", "cherry", "Mango")
 (a, b, *c) = fruits
 print(c)
+
+########## Tuples Loop ############
+
+thisTuple = ("apple", "banana", "cherry", "mango")
+for i in thisTuple:
+    print(i)
+
+### For Loop
+for x in range(len(thisTuple)):
+    print (thisTuple[x]) 
+ 
+### While Loop
+i = 1
+while i < len(thisTuple):
+    print(thisTuple[ i])
+    i+= 1    

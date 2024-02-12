@@ -33,3 +33,13 @@ i = 1
 while i < len(thisTuple):
     print(thisTuple[ i])
     i+= 1    
+
+### Join Tuples
+num1 = (1,2,3,4,5)
+num2 = (6,7,8,9,10)
+num3 = num1 + num2
+print(num3)
+
+### Multiple Join Tuples
+num = (1,2,3,4)
+print(num *2)

@@ -45,6 +45,6 @@ num = (1,2,3,4)
 print(num *2)
 
 ### Tuples Methods
-player = ("Mash","Shakib","Mushi","Taskin", 20)
-indexing = player.index(20)
-print(indexing)
+player = ("Mash","Shakib","Mushi","Taskin", "Shakib")
+count = player.count("Shakib")
+print(count)
